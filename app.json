@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Inspiration",
+    "description": "Always take notes.",
+    "slug": "inspiration",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#144F51",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#144F51"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.inspiration.lankinen",
+      "buildNumber": "2",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.inspiration.lankinen",
+      "versionCode": 2,
+      "permissions": []
+    }
+  }
+}
